@@ -22,20 +22,20 @@ For this project, a great writeup should provide a detailed response to the "Ref
 1. Describe the pipeline
     -Convert image to grayscale with white/yellow line masked image
     
-    <img src="test_images_output/HLS.jpg">
+    <img src="test_images_output/HLS.JPG">
     
     -convert grayscale image to canny edge image with gaussian blur
     
-    <img src="test_images_output/canny.jpg">
+    <img src="test_images_output/canny.JPG">
     
     -Identify interested area for our lanes and mask other regions with black color
     -From the masked image, identify the lanes using Hough method and mask hough lines on it.
     
-    <img src="test_images_output/regionandHoughlines.jpg">
+    <img src="test_images_output/regionandHoughlines.JPG">
     
     -Merge original images with Hough lines
     
-    <img src="test_images_output/houghLines.jpg">
+    <img src="test_images_output/houghLines.JPG">
     
     -Run it through the image
 
